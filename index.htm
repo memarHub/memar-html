@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Memar | Tech Portfolio</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <!-- Loading Screen-->
+        <div class="wrapper">
+            <div class="loader">
+                
+            </div>
+        </div>
+
+    <!-- Navigation-->
+    <nav class="navbar">
+    <a href="#home" class="logo">MEMAR<span>FOLIO</span></a>
+        <div class="menu-toggle" onclick="toggleMenu()"><i class="fa-solid fa-bars"></i></div>
+
+
+         
+
+  <div id="overlay" onclick="toggleMenu()"></div>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>          
+            <li><a href="#awards">Awards</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+        </ul>
+    </nav>  
+
+    <!--Details ito-->
+    <section id="home" class="memar">
+        <div class="memar-content">
+
+            <h1>Hi, I'm Emmar </h1>  
+            <p>Aspiring <span class="role-software">Software Tester</span> & <span class="role-cyber">Cybersecurity</span>  Enthusiast
+            </p>
+            <p class="highlight"> Driven to ensure quality software and protect systems from threats.</p>
+            <a href="./Resume/Perez Resume(2025).pdf" target="_blank" class="cta-button">Download CV </a>
+        </div>
+<!--profile-->
+
+        <div class="memar-image">
+            <img src="./project/Emmar.jpg"  alt="profile" class="profile-img">
+        </div>
+    </section>
+
+<!-- about-->
+
+<section class="about" id="about">
+ <h2 class="section-title">About Me</h2>
+ <div class="about-content">
+    <div class="about-text">
+        <p>Hi, I’m Emmar Christian Perez, a Computer Engineering graduate from STI College Lipa. I’m passionate about technology, especially in the fields of software testing and cybersecurity.
+        </p>
+        <p>
+        During my OJT, I gained hands-on experience creating test scenarios, reporting bugs, and manually testing a real website. That helped me understand how to spot issues from a user’s point of view and sparked my curiosity about identifying basic website vulnerabilities.
+        </p>
+        <p>
+       I also have a solid understanding of computer hardware and enjoy exploring how systems work behind the scenes. After my OJT, I continued learning on my own through platforms like Udemy, diving into topics such as system protection, common threats, and basic security practices.
+        </p>
+        <p>
+       I’ve worked on projects involving automation, sensor-based systems, and quality assurance. I have experience in basic penetration testing, computer repair, and knowledge of Agile methodologies used in development teams.
+        </p>
+        <p>
+            I'm currently seeking an opportunity to start my career in entry-level software testing or cybersecurity, where I can apply my technical skills, attention to detail, and eagerness to learn. I’m motivated to grow professionally and contribute to building secure and reliable systems.
+        </p>
+       
+    </div>
+ </div>
+</section>
+
+ <!-- Project Section -->
+ <section class="projects" id="projects">
+    <h2 class="section-title">My Projects</h2>
+    <div class="projects-grid">
+      <!-- 1st card -->
+     <div class="project-card">
+        <img src="./project/lga.jpg" alt="project 1" height="200px" class="project-img" />
+        <div class="project-info">
+             <h3 class="project-title">(LGA) System QA Testing</h3>
+             <p class="project-description">Conducted manual and performance testing on LGA modules, specifically Budgeting and Barangay Records. Designed and executed test cases to validate functionality, data accuracy, and UI consistency. Logged bugs using Excel and worked closely with developers. Performed end-to-end testing to ensure reliable workflows and compliance with LGU processes.</p>
+      
+        <div class="project-links">
+         <a href="https://trello.com/invite/b/67db7177ab0a203168d60223/ATTIf1aee15bbce94bf5f6295fe33f8190a361A23CAC/lga-test-scenarios" class="project-link">
+          <i class="fa-brands fa-trello"></i> Trello</a>
+
+         <a href="https://docs.google.com/spreadsheets/d/1VS8nLTlHPQHoprrMw-j_qBEmjFYyJBWCBD0hIJb111Y/edit?usp=sharing" class="project-link">
+          <i class="fa-solid fa-table"></i> Excel
+         </a>
+      </div>
+     </div>
+     </div>  
+     <!--2nd card-->
+     <div class="project-card">
+        <img src="./project/rc1.jpg" alt="project 2" height="200px" class="project-img">
+        <div class="project-info">
+            <h3 class="project-title">RC Car using Arduino – Embedded Systems Project</h3>
+            <p class="project-description">Designed and built an RC car controlled via Bluetooth using Arduino. Integrated motor driver, servo motor, and sensors for movement and obstacle detection. Programmed the system in C/C++ to respond to commands sent from a mobile app, enabling forward, reverse, left/right turns, and basic automation features.</p>
+        </div>
+     </div>
+
+      <!-- 3rd card-->
+     <div class="project-card">
+        <img src="./project/capstone.jpg" alt="project 3" height="200px"
+        class="project-img">
+        <div class="project-info">
+            <h3 class="project-title">Automated Feeder with Monitoring System for Koi Fish Aquarium Using Android App</h3>
+            <p class="project-description">Developed an automated koi fish feeding and monitoring system using Arduino and sensors. Integrated an Android app for remote control and real-time updates. System automates feeding schedules, monitors water parameters (like temperature, pH, or water level), and alerts users through the mobile interface for better aquarium management.</p>
+        </div>
+      </div>
+
+     <!-- 4rd card-->
+      <div class="project-card">
+        <img src="./project/pr4.jpg" alt="project 4" height="200px"
+        class="project-img">
+        <div class="project-info">
+            <h3 class="project-title">Sound-Activated Fan using Arduino</h3>
+            <p class="project-description">Developed a sound-activated fan system using Arduino and a sound sensor. The fan turns on or off based on detected sound levels, such as a hand clap or voice command, providing a simple and touchless control solution.</p>
+        </div>
+     </div>
+      <!-- 5rd card-->
+      <div class="project-card">
+        <img src="./project/pr5.jpg" alt="project 4" height="200px"
+        class="project-img">
+        <div class="project-info">
+            <h3 class="project-title">Speaker with Sound-Responsive LED Lights</h3>
+            <p class="project-description">Built a speaker system with LED lights that blink based on bass vibrations. The circuit uses a sound sensor or audio signal splitter to detect low-frequency sounds and trigger LED lighting effects synchronized with the beat.</p>
+        </div>
+     </div>
+      <!-- 6rd card-->
+      <div class="project-card">
+        <img src="./project/pr6.jpg" alt="project 4" height="200px"
+        class="project-img">
+        <div class="project-info">
+            <h3 class="project-title">Automated Clothesline System with Rain Detection, Environmental Monitoring, and Buzzer Alert</h3>
+            <p class="project-description">Created a smart clothesline system that works on its own. It automatically pulls the clothes in when it rains and returns them outside when the weather clears. It also has a buzzer for alerts and shows the temperature and humidity using built-in sensors. No app is needed everything runs automatically.</p>
+        </div>
+     </div>
+
+    </div>
+     
+</section>
+
+
+
+
+
+
+<!--My skill section-->
+<section id="skills" class="skills">
+    <h1>Technical Expertise</h1>
+    <div class="skills-grid">
+        <div class="skill-card">
+            <i class="fa-solid fa-code"></i>
+            <h3>Language</h3>
+             <ul>
+                <li>Java</li>
+                <li>Java script</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>C++(Basic)</li>
+                <li>Python(Basic)</li>
+                <li>SQL(Basic)</li>
+            </ul>
+        </div>
+        <div class="skill-card">
+            <i class="fa-solid fa-hat-cowboy"></i>
+            <h3>Tools</h3>
+            <ul>
+                <li>Arduino IDE</li>
+                <li>Apache Jmeter</li>
+                <li>IntelliJ IDE</li>
+                <li>Postman</li>
+                <li>Burp Suite(Basic)</li>
+                <li>Jira(Basic)</li>
+                <li>Trello</li>
+            </ul>
+        </div>
+        <div class="skill-card">
+            <i class="fa-solid fa-gear"></i>
+            <h3>  Technical Skills </h3>
+            <ul>
+                <li>Soldering and Circuit Assembly</li>
+                <li>Power Supply Management</li>
+                <li>Breadboarding and Prototyping</li>
+                <li>Manual Testing (Functional, Regression, Smoke, UAT)</li>
+                <li>Test Case Design & Execution</li>
+                <li>SDLC & STLC Understanding</li>
+                <li>Agile/Scrum Workflow</li>
+                <li>Basic Penetration Testing</li>
+                <li>Network Security Fundamentals</li>
+            </ul>
+        </div>
+    </div>
+    </div>
+</section>
+
+<!-- Awards Section -->
+<section class="awards" id="awards">
+  <h2 class="section-title">Awards</h2>
+  <div class="awards-content">
+    <div class="award-info">
+      <h3>Loyalty Awardee</h3>
+      <p>Certificate of Recognition, STI College Lipa 2025</p>
+      <h3>Best Capstone Project</h3>
+      <p>Automated Feeder with Monitoring System for Koi Fish Aquarium Using Android Applications, STI College Lipa 2025</p>
+      <h3>Best Research </h3>
+        <p> Automated Feeder with Monitoring System for Koi Fish
+Aquarium Using Android Applications, College Fair 2024</p>
+      <h3> 1st Place - Best in Implementation  </h3>
+       <p>Automated Feeder with Monitoring System for Koi
+Fish Aquarium Using Android Application, College Fair 2024
+      </p>
+      <h3>2nd Place – Best in Communication </h3>
+        <p> Automated Feeder with Monitoring System for Koi
+Fish Aquarium Using Android Application, College Fair 2024 </p>
+      <h3>2nd Place, Poster Making Competition</h3>
+      <p>National Disaster Resilience Month 2018</p>
+    </div>
+  </div>
+</section>
+
+<!-- Certificates Section -->
+<section class="certificates" id="certificates">
+  <h2 class="section-title">Certificates</h2>
+  <div class="certificates-content">
+    <div class="certificate-info">
+      <p><strong>CC Certified in Cybersecurity</strong> – Certificate of Completion, (ISC2)</p>
+      <p><strong>Bug Bounty Hunting & Web Security Testing</strong> – Certificate of Completion, Udemy</p>
+      <p><strong>AWS Academy Cloud Foundations</strong> – Certificate of Completion</p>
+      <p><strong>Employment Preparation Seminar and Workplace</strong> – Certificate of Completion</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+    <p>&copy; Memar | Tech Portfolio 2025 . All rights reserved.</p>
+    <div class="social-links">
+        <a href="https://www.instagram.com/justt.memar"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/kurinrinkashi"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://github.com/memarHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/emmar-christian-perez-b32b14357"><i class="fa-brands fa-square-linkedin"></i></a>
+    
+    </div>
+</footer>
+
+
+<!--link ito sa javascrit-->
+<script src ="script.js"></script>
+</body>
